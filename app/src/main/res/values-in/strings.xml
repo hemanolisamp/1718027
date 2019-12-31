@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="teknik_informatika">teknik informatika</string>
+    <string name="pengikut">pengikut</string>
+    <string name="_2k"></string>
+    <string name="_1k"></string>
+    <string name="_5k"></string>
+
+</resources>

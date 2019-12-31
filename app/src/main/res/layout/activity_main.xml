@@ -44,7 +44,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
                 android:text="Hemanolisa Monika Putri"
-                android:textColor="#030303"
+                android:textColor="#fff"
                 android:textSize="21dp"
                 android:textStyle="bold" />
 
@@ -54,7 +54,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
-                android:text="Informatic Engineering">
+                android:text="@string/teknik_informatika"
+                android:textColor="#ffff"
+                android:textStyle="bold">
 
             </TextView>
 
@@ -65,7 +67,9 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
                 android:text="ITN malang"
-                android:textSize="12dp">
+                android:textSize="12dp"
+                android:textColor="#ffff"
+                android:textStyle="bold">
 
             </TextView>
 
@@ -94,7 +98,7 @@
             android:id="@+id/fol_ig"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="followers"
+            android:text="@string/pengikut"
             android:layout_marginStart="40dp"
             android:gravity="left"
             android:layout_marginTop="458dp"
@@ -127,7 +131,7 @@
         android:layout_marginStart="185dp"
         android:layout_marginTop="210dp"
         android:gravity="fill"
-        android:text="followers" />
+        android:text="@string/pengikut" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/tw"
@@ -142,9 +146,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textSize="30dp"
-            android:text="25rb"
+            android:text="5k"
             android:textStyle="bold"
-            android:layout_marginStart="312dp"
+            android:layout_marginStart="325dp"
             android:gravity="left"
             android:layout_marginTop="419dp"/>
 
@@ -155,7 +159,29 @@
             android:layout_marginStart="315dp"
             android:layout_marginTop="210dp"
             android:gravity="fill"
-            android:text="followers" />
+            android:text="@string/pengikut" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/ic_setting"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/ic_back"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
     </RelativeLayout>
 </LinearLayout>
